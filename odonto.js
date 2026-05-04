@@ -3631,6 +3631,15 @@ function limitTextarea(textarea,maxLines,maxChar){
 		$("#suma2").text(Math.round((totalPlaca/(totalDientes*6)*100)));
 	}
 
+	//Funciones placeholder para evitar errores de referencia al alternar los dientes
+	function cargar2() {}
+	function cargar3() {}
+	function cargar4() {}
+	function cargar5() {}
+	function cargar6() {}
+	function cargar7() {}
+	function cargar8() {}
+
 /* Events for odonto */
 $(document).ready(function(){
 	//---------------------------------------------------------------------------------
